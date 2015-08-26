@@ -1,0 +1,872 @@
+/*@CHARSET "UTF-8";*/
+*{margin:0px;padding:0px;}
+.alldiv{
+height:2000px;
+width:1340px;
+margin:0 auto;
+/*background-image:url(http://image61.360doc.com/DownloadImg/2013/05/2619/32623278_1.png);
+background-repeat:no-repeat;
+background-position:750px 20px;
+background-size:50% 70%;*/
+/*cursor:url(../image/cursor/bluecursor.cur),auto;*/
+}
+.userbardiv{
+	width:1366px;/*这里不能写成100% 因为窗口缩小时会出问题*/
+	height:40px;
+	background-color:#B4CDE6;
+	position:relative;
+	opacity:0.9;
+	filter:alpha(opacity:0.9);
+	z-index:20;
+}
+.loginOrRegister{
+	position:relative;
+	bottom:6px;
+	display:inline-block;
+	width:640px;
+	height:40px;
+	font-family: simsun;
+	font-size:10pt;
+	margin-left:80px;
+	color:#646464;
+}
+.login{
+	color:blue;
+	text-decoration:none;
+}
+.member{
+	color: red;
+	text-decoration:none;
+}
+.register{
+	color:red;
+	text-decoration: none;
+}
+.login:hover{
+	text-decoration:underline;
+}
+.register:hover{
+	text-decoration:underline;
+}
+.userbarright{ 
+	display:inline-block;
+	/*display:inline-block;*/
+	/*background-color:pink;*/
+	line-height:30px;
+	/*right:173px;*/
+	z-index:200;
+	position:relative;
+	top:5px;
+}
+.userbarright li:hover{
+	color:red;
+}
+.userbarimg{
+position:absolute;
+height:119px;
+width:360px;
+top:40px;
+left:880px;
+z-index:0;
+background-image:url(../image/potry.jpg);
+background-repeat:no-repeat;
+}
+.userbardiv li{	
+	z-index:200;
+	float:left;
+	list-style-type: none;
+	border-right:1px solid #2369AF;
+	font-size:10pt;
+	padding:0px 9px 0px 9px;
+	color:#646464;
+	cursor:pointer; 
+	}
+.showhidden{
+	z-index:50;
+	visibility:visible;
+	font-size:10pt;
+	color:#646464;
+	position:fixed;
+	list-style-type: none;
+	visibility:hidden;
+	background-color: #B4CDE6;
+	opacity:0.8;
+	filter:alpha(opacity:0.8);
+	border:none;
+}
+.shopinformation{
+	display:none;
+	visibility:hidden;
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:40px;
+	left:1050px;
+	background-color: #BBD2E8;
+	z-index:500;
+	opacity:0.8;
+	font-size:13px;
+	line-height: 20px;
+	color:#2B4D68;
+	z-index:5;
+	border:1px solid #2773C1;
+	border-top: none;
+}
+.position1{
+	display:none;
+	position:absolute;
+	left:1097px;
+	top:32px;
+	width:90px;
+	text-align:center;
+	border:1px solid #2773C1;
+	border-top: none;
+}
+.position2{
+	display:none;
+	position:absolute;
+	width:77px;
+	left:1189px;
+	top:32px;
+	text-align:center;
+	border:1px solid #2773C1;
+	border-top: none;
+}
+
+.showhidden li{
+	padding:3px;
+	cursor:pointer; 
+}
+.showhidden li:hover{
+	background-color:#E8F2FE;
+}
+li a{
+	text-decoration: none;
+	color:#646464;
+}
+li a:hover{
+	color:red;
+}
+/*.logoset{
+display:inline-block;
+background-color: pink;
+width:355px;
+height:120px;
+text-align:center;
+}*/
+
+.searchbar img{
+	float:left;
+}
+.searchbar{
+margin-left:130px;
+display:inline-block;
+width:1100px;
+height:120px;
+background-image: url(../image/406_168blueflower.jpg);
+z-index:-2;
+}
+.searchtext{
+display:inline-block;
+margin-left:120px;
+margin-top:40px;
+width:411px;
+height:37px;
+box-shadow:2px 2px 1px #f2f2f2 inset;
+border:2px solid #2773C1;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.searchbuttontype{
+	width:110px;
+	height:41px;
+	background-color:#1064BA;
+	font-size: 18px;
+	color:white;
+	cursor:pointer;
+	opacity:0.9;
+	filter:alpha(opacity:0.9); 
+	position:relative;
+	top:1px;
+	right:3px;
+	border:none;
+}
+.showsearchul{
+	display:none;
+	position:absolute;
+	width:108px;
+	height:200px;
+	border:1px solid #000;
+	list-style-type: none;
+	overflow:scroll;
+	top:120px;
+	left:792px;
+	visibility:hidden;
+	z-index: 999;
+}
+.showsearchul li{
+	opacity:0.9;
+	filter:alpha(opacity:0.9); 
+	background-color:#D0DFEF;
+	text-align: center;
+	padding:5px;
+	
+}
+.showsearchul li:hover{
+	background-color: #B4CDE6;
+}
+.searchbuttonsou{
+	background-color:#5F889E;
+	width:80px;
+	height:41px;
+	color:white;
+	border:none; 
+	font-size: 18px;
+	position:relative;
+	right:5px;
+	top:1px;
+	cursor:pointer;
+}
+.navigatetop{
+width:1349px;
+heigth:40px;
+background-color:#2773C1;
+}
+.navigatetop ul{
+list-style-type: none;
+margin-left:380px;
+line-height:40px;
+height:40px;
+background-color:#2773C1;
+}
+.navigatetop ul li{
+float:left;
+padding:0px 13px 0px 13px;
+font-weight: bold;
+cursor:pointer;
+font-size: 14px;
+}
+.navigatetop ul li a{
+color:white;
+}
+.navigatetop ul li:hover{
+background-color: #283667;
+color:red;
+}
+.nextdiv{
+width:1200px;
+height:1500px;
+margin:auto;
+position: relative;
+}
+.navigateleft{
+margin-top:8px;
+width:220px;
+display:left;
+/*padding:0px 5px 0px 5px;*/
+float:left;
+border:2px solid #2773C1;
+border-radius: 5px;
+}
+.navigateleft div{
+	padding-left:10px;
+	border-bottom:1px dotted #2773C1;
+}
+.navigateleft div:hover{
+background-color:#B4CDE6;
+}
+.navigateleft div span{
+	display:inline-block;
+	margin-top:3px;
+	font-weight:bold;
+	color:#1E263B;
+	font-size: 14px;
+}
+.navigateleft div a{
+	line-height:30px;
+	text-decoration: none;
+	color:#000;
+	color: #666;
+}
+.navigateleft div a:hover{
+	color:red;
+}
+/*文学艺术隐藏框样式**/
+.showwenxueyishuleft{
+	width:400px;
+	/*background-color: yellow;*/
+	float:left;
+}
+.showwenxueyishu{
+	position:absolute;
+	width:750px;
+	top:8px;
+	left:220px;
+	/*background-color: #BBD2E8;*/
+	background-color: white;
+	/*background-image:url(../image/bookbackground.jpg);*/
+	background-size:750px 460px;
+	opacity:0.9;
+	visibility:visible;
+	border:2px solid #2773C1;
+	border-left: none;
+	z-index:999;
+}
+.line{
+	height:300px;
+	weight:2px;
+	border:1px dotted #2C2255; 
+	float:left; 
+}
+.showwenxueyishuright{
+	float:left; 
+	width:300px;
+	height:300px;
+	margin:15px;
+	/*background-color: yellow;*/
+}
+.showwenxueyishuright ul{
+	margin-top:4px;
+	padding-left:15px;
+	font-size:12px;
+	line-height: 25px;
+}
+.showwenxueyishuright hr{
+	margin:80px 5px 20px 5px;
+}
+.showwenxueyishuright a{
+	text-decoration: none;
+	color:black;
+}
+.showwenxueyishuright a:hover{
+	color:red;
+}
+.showwenxueyishu a{
+	text-decoration: none;
+	color:black;
+}
+.showwenxueyishu a:hover{
+	color:red;
+}
+.showwenxueyishutable{
+	padding:15px 0 15px 25px;
+}
+.showwenxueyishutable:hover{
+	background-color: #BBD2E8;;
+}
+.showwenxueyishu span{
+	font-size:16px;
+	font-weight: bold;
+}
+table{
+	border-collapse: collapse;
+	border:none;
+	width:360px;
+	font-size:13px;
+	margin-top:7px;
+}
+table tr{
+	line-height: 22px;
+}
+table td{
+	width:115px;
+}
+/**少儿 隐藏框样式**/
+.showshaoer{
+	position:absolute;
+	width:750px;
+	top:73px;
+	left:220px;
+	background-color: white;
+	/*background-image:url(../image/bookbackground.jpg);*/
+	background-size:750px 460px;
+	opacity:0.8;
+	visibility:visible;
+	border:2px solid #2773C1;
+	border-left: none;
+	z-index:999;
+}
+
+.showshaoerleft{
+	width:400px;
+	float:left;
+}
+.line{
+	height:300px;
+	weight:2px;
+	border:1px dotted #2C2255; 
+	float:left; 
+}
+.showshaoerright{
+	float:left; 
+	width:300px;
+	height:300px;
+	margin:15px;
+	
+}
+.showshaoerright ul{
+	margin-top:4px;
+	padding-left:15px;
+	font-size:12px;
+	line-height: 25px;
+}
+.showshaoerright hr{
+	margin:15px 5px 20px 5px;
+}
+.showshaoerright a{
+	text-decoration: none;
+	color:black;
+}
+.showshaoerright a:hover{
+	color:red;
+}
+.showshaoer a{
+	text-decoration: none;
+	color:black;
+}
+.showshaoer a:hover{
+	color:red;
+}
+.showshaoertable{
+	padding:15px 0 15px 25px;
+}
+.showshaoertable:hover{
+	background-color: #BBD2E8;;
+}
+.showshaoer span{
+	font-size:16px;
+	font-weight: bold;
+}
+
+/*shaoer隐藏结束*/
+
+
+/**人文社科 隐藏框样式**/
+.showrenwensheke{
+	position:absolute;
+	width:750px;
+	top:138px;
+	left:220px;
+	background-color: white;
+	/*background-image:url(../image/bookbackground.jpg);*/
+	background-size:750px 460px;
+	opacity:0.8;
+	visibility:visible;
+	border:2px solid #2773C1;
+	border-left: none;
+	z-index:999;
+}
+.showrenwenshekeleft{
+	width:400px;
+	float:left;
+}
+.line{
+	height:300px;
+	weight:2px;
+	border:1px dotted #2C2255; 
+	float:left; 
+}
+.showrenwenshekeright{
+	float:left; 
+	width:300px;
+	height:300px;
+	margin:15px;
+	
+}
+.showrenwenshekeright ul{
+	margin-top:4px;
+	padding-left:15px;
+	font-size:12px;
+	line-height: 25px;
+}
+.showrenwenshekeright hr{
+	margin:15px 5px 20px 5px;
+}
+.showrenwenshekeright a{
+	text-decoration: none;
+	color:black;
+}
+.showrenwenshekeright a:hover{
+	color:red;
+}
+.showrenwensheke a{
+	text-decoration: none;
+	color:black;
+}
+.showrenwensheke a:hover{
+	color:red;
+}
+.showrenwensheketable{
+	padding:15px 0 15px 25px;
+}
+.showrenwensheketable:hover{
+	background-color: #BBD2E8;;
+}
+.showrenwensheke span{
+	font-size:16px;
+	font-weight: bold;
+}
+/** 人文社科隐藏框样式结束**/
+
+/** 经管励志隐藏框样式开始**/
+.showjingguanlizhi{
+	position:absolute;
+	width:750px;
+	top:200px;
+	left:220px;
+	background-color: white;
+	/*background-image:url(../image/bookbackground.jpg);*/
+	background-size:750px 460px;
+	opacity:0.8;
+	visibility:visible;
+	border:2px solid #2773C1;
+	border-left: none;
+	z-index:999;
+}
+
+.showjingguanlizhileft{
+	width:400px;
+	float:left;
+}
+.line{
+	height:300px;
+	weight:2px;
+	border:1px dotted #2C2255; 
+	float:left; 
+}
+.showjingguanlizhiright{
+	float:left; 
+	width:300px;
+	height:300px;
+	margin:15px;
+	
+}
+.showjingguanlizhiright ul{
+	margin-top:4px;
+	padding-left:15px;
+	font-size:12px;
+	line-height: 25px;
+}
+.showjingguanlizhiright hr{
+	margin:15px 5px 20px 5px;
+}
+.showjingguanlizhiright a{
+	text-decoration: none;
+	color:black;
+}
+.showjingguanlizhiright a:hover{
+	color:red;
+}
+.showjingguanlizhi a{
+	text-decoration: none;
+	color:black;
+}
+.showjingguanlizhi a:hover{
+	color:red;
+}
+.showjingguanlizhitable{
+	padding:15px 0 15px 25px;
+}
+.showjingguanlizhitable:hover{
+	background-color: #BBD2E8;;
+}
+.showjingguanlizhi span{
+	font-size:16px;
+	font-weight: bold;
+}
+/** 经管励志隐藏框样式结束**/
+
+/** 健康生活隐藏框样式开始**/
+.showjiankangshenghuo{
+	position:absolute;
+	width:750px;
+	top:264px;
+	left:220px;
+	background-color: white;
+	/*background-image:url(../image/bookbackground.jpg);*/
+	background-size:750px 460px;
+	opacity:0.8;
+	visibility:visible;
+	border:2px solid #2773C1;
+	border-left: none;
+	z-index:999;
+}
+
+.showjiankangshenghuoleft{
+	width:400px;
+	float:left;
+}
+.line{
+	height:300px;
+	weight:2px;
+	border:1px dotted #2C2255; 
+	float:left; 
+}
+.showjiankangshenghuoright{
+	float:left; 
+	width:300px;
+	height:300px;
+	margin:15px;
+	
+}
+.showjiankangshenghuoright ul{
+	margin-top:4px;
+	padding-left:15px;
+	font-size:12px;
+	line-height: 25px;
+}
+.showjiankangshenghuoright hr{
+	margin:15px 5px 20px 5px;
+}
+.showjiankangshenghuoright a{
+	text-decoration: none;
+	color:black;
+}
+.showjiankangshenghuoright a:hover{
+	color:red;
+}
+.showjiankangshenghuo a{
+	text-decoration: none;
+	color:black;
+}
+.showjiankangshenghuo a:hover{
+	color:red;
+}
+.showjiankangshenghuotable{
+	padding:15px 0 15px 25px;
+}
+.showjiankangshenghuotable:hover{
+	background-color: #BBD2E8;;
+}
+.showjiankangshenghuo span{
+	font-size:16px;
+	font-weight: bold;
+}
+/** 健康生活隐藏框样式结束**/
+
+/** 考试教育隐藏框样式开始**/
+.showkaoshijiaoyu{
+	position:absolute;
+	width:750px;
+	top:330px;
+	left:220px;
+	background-color: white;
+	/*background-image:url(../image/bookbackground.jpg);*/
+	background-size:750px 460px;
+	opacity:0.8;
+	visibility:visible;
+	border:2px solid #2773C1;
+	border-left: none;
+	z-index:999;
+}
+
+.showkaoshijiaoyuleft{
+	width:400px;
+	float:left;
+}
+.line{
+	height:300px;
+	weight:2px;
+	border:1px dotted #2C2255; 
+	float:left; 
+}
+.showkaoshijiaoyuright{
+	float:left; 
+	width:300px;
+	height:300px;
+	margin:15px;
+	
+}
+.showkaoshijiaoyuright ul{
+	margin-top:4px;
+	padding-left:15px;
+	font-size:12px;
+	line-height: 25px;
+}
+.showkaoshijiaoyuright hr{
+	margin:15px 5px 20px 5px;
+}
+.showkaoshijiaoyuright a{
+	text-decoration: none;
+	color:black;
+}
+.showkaoshijiaoyuright a:hover{
+	color:red;
+}
+.showkaoshijiaoyu a{
+	text-decoration: none;
+	color:black;
+}
+.showkaoshijiaoyu a:hover{
+	color:red;
+}
+.showkaoshijiaoyutable{
+	padding:15px 0 15px 25px;
+}
+.showkaoshijiaoyutable:hover{
+	background-color: #BBD2E8;;
+}
+.showkaoshijiaoyu span{
+	font-size:16px;
+	font-weight: bold;
+}
+/** 考试教育隐藏框样式结束**/
+
+/** 科技隐藏框样式开始**/
+.showkeji{
+	position:absolute;
+	width:750px;
+	top:393px;
+	left:220px;
+	background-color: white;
+	/*background-image:url(../image/bookbackground.jpg);*/
+	background-size:750px 460px;
+	opacity:0.8;
+	visibility:visible;
+	border:2px solid #2773C1;
+	border-left: none;
+	z-index:999;
+}
+
+.showkejileft{
+	width:400px;
+	float:left;
+}
+.line{
+	height:300px;
+	weight:2px;
+	border:1px dotted #2C2255; 
+	float:left; 
+}
+.showkejiright{
+	float:left; 
+	width:300px;
+	height:300px;
+	margin:15px;
+	
+}
+.showkejiright ul{
+	margin-top:4px;
+	padding-left:15px;
+	font-size:12px;
+	line-height: 25px;
+}
+.showkejiright hr{
+	margin:15px 5px 30px 5px;
+}
+.showkejiright a{
+	text-decoration: none;
+	color:black;
+}
+.showkejiright a:hover{
+	color:red;
+}
+.showkeji a{
+	text-decoration: none;
+	color:black;
+}
+.showkeji a:hover{
+	color:red;
+}
+.showkejitable{
+	padding:15px 0 15px 25px;
+}
+.showkejitable:hover{
+	background-color: #BBD2E8;;
+}
+.showkeji span{
+	font-size:16px;
+	font-weight: bold;
+}
+/** 科技隐藏框样式结束**/
+.pitureshow{
+	width:669px;
+	float:left;
+	margin:8px;
+}
+.navigateright{
+	width:275px;
+	float:left;
+	margin-top:8px;
+	border: 2px solid #2773C1;
+	border-radius: 5px;
+}
+.bookshopmessage{
+	width:275px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	background-color: #2773C1;
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	
+}
+.shopnotice{
+	width:275px;
+	height:180px;
+	background-color: #BBD2E8;
+}
+.shopnotice span {
+    display: block;
+    width: 170px;
+    margin: auto;
+    font-size: 16px;
+    color: #666;
+    line-height: 25px;
+}
+.shopnotice ul{
+	margin-top:32px;
+}
+
+.shopnotice ul li{
+	margin-left:33px;
+	padding:3px;
+	font-size:13px;
+	line-height:20px;
+	list-style: circle;
+}
+.shopnotice ul li a{
+	text-decoration: none;
+}
+.shopnotice ul li a:hover{
+	color:red;
+}
+.pictureshowdown{
+	margin-top:7px;
+	width:660px;
+	height:250px;
+	background: #ccc;
+}
+
+/*<!--展示最热图书-->*/
+.showHostBooks{
+    margin:10px 0 0 15px;
+	width:875px;
+	height:550px;
+	/*border:2px solid #ccc;*/
+	border:none;
+	border-radius:5px;
+	/*background:#777;*/
+	float:left;
+}
+
+/*<!--展示留言板-->*/
+.messageBoard{
+	background:#EBEBEB;
+	width:280px;
+	height:549px;
+	border:2px solid #ccc;
+	border-radius:5px;
+	margin:10px 0 0 15px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+

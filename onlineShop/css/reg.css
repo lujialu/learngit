@@ -1,0 +1,233 @@
+#reg {
+	padding:15px;
+}
+
+#login{
+	padding:50px 0 0 0px;
+	/*padding:0px;*/
+}
+
+#login p:last-child{
+	margin-left:65px;
+}
+
+#reg p {
+	height:0px;
+	padding:28px 0;
+	/*padding:0;*/
+}
+
+#login p{
+	height: 48px;
+	
+}
+
+
+#reg p label,#login p label{
+	font-size:14px;
+	color:#666;
+}
+/**设置提示的样式**/
+.ui-tooltip-content{
+	color: #4E84BA;
+	font-size:12px;
+	height: 15px;
+}
+/**设置对话框的header***/
+.ui-widget-header{
+	background: #B6C6D6;
+	border: none;
+}
+/**设置对话框的padding**/
+.ui-dialog{
+	padding:1px;
+}
+/**设置对话框的button**/
+.ui-dialog .ui-dialog-buttonpane button {
+    cursor: pointer;
+    margin: 0;
+}
+/**改变自动补全的样式**/
+.ui-menu-item a{
+	font-size:12px;
+}
+.ui-menu-item a.ui-state-focus {
+	background:#B6C6D6;
+	font-size:12px;
+}
+
+#reg p .star,#login p .star {
+	color:red;
+	font-size:11px;
+	font-weight: bold;
+}
+#reg p .succ ,#login p .succ {
+	display:inline-block;
+	width:28px;
+	background:url(../image/reg_succ.png) no-repeat;
+}
+#reg li ,#login li{
+	list-style: none;
+	padding-left:110px;
+}
+#login li{
+	padding-left:100px;
+}
+#reg li label,#login li label{
+	color:#C80A0D;
+	font-size:12px;
+}
+.rightAlign{
+	display:inline-block;
+	width:105px;
+	text-align: right;
+}
+#login .rightAlign{
+	width:95px;
+}
+#reg .text,#login .text{
+	border-radius:4px;
+	border:1px solid #ccc;
+	background: #fff;
+	height:25px;
+	width:200px;
+	text-indent: 6px;
+	color: #666;
+	font-size: 12px;
+}
+
+#loading {
+background:url(../image/loading.gif) no-repeat 20px center;
+line-height:25px;
+font-size:14px;
+font-weight:bold;
+text-indent:40px;
+color:#666;
+}
+
+/*选项卡样式*/
+#tabs {
+	border:none;
+	margin:0 auto;
+	width:1170px;
+	padding:0;
+}
+#tabs1, #tabs2, #tabs3,#tabs4,#tabs5 {
+	height:225px;
+	padding:10px;
+	border:1px solid #aaa;
+	border-top:none;
+	position:relative;
+	top:-2px;
+}
+
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: 0 0 1px 0;
+}
+
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+    cursor: pointer;
+}
+
+
+.ui-tabs-anchor{
+	margin:0;
+	width:205.2px;
+	text-align: center;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	margin:0;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #2773C1;
+	font-weight: bold;
+}
+#tabs div ul{
+	padding-top:20px;
+}
+#tabs div li{
+	list-style: none;
+	float:left;
+	width:19%;
+	/*background:red;*/
+	margin-left:5px;
+}
+.showLastBooks{
+	padding-top: 6px;
+}
+
+.showLB-name,.showLB-price{
+	text-align:center;
+	font-size: 13px;
+	color:#ccc;
+	line-height: 20px;
+}
+.showLB-name{
+	height: 45px;
+}
+.showLB-name a{
+	display:inline-block;
+	width:150px;
+	text-decoration: none;
+}
+.showLB-name a:hover{
+	text-decoration: underline;
+	color:blue;
+}
+
+.showLB-price{
+	color:#2773C1;
+}
+.showLB-img{
+	text-align:center;
+	width:auto;
+}
+#tabs h4{
+	width:165px;
+	background:url(../image/theLast.jpg) no-repeat right;
+	color: #2773C1;
+}
+
+.ui-tabs .ui-tabs-panel{
+	border-width:1px;
+}
+/*最热选项卡样式*/
+#hottabs {
+	border:none;
+	margin:0 auto;
+	padding:0;
+}
+#tab6,#tabs7,#tabs8,#tabs9{
+	height:500px;
+	padding:10px;
+	border:1px solid #aaa;
+	border-top:none;
+	position:relative;
+	top:-2px;
+}
+#hottabs .ui-tabs-anchor{
+	margin:0;
+	width:190.2px;
+	text-align: center;
+}
+#hottabs div ul{
+	padding-top:20px;
+	height: 205px;
+    padding-top: 9px;
+}
+#hottabs hr{
+	border:none;
+	height:1px;
+	background-color: #aaa;
+}
+#hottabs div li{
+	list-style: none;
+	float:left;
+	width:19%;
+	/*background:red;*/
+	margin-left:36px;
+}

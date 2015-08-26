@@ -1,0 +1,13 @@
+.xm-bq{margin:20px 0;font-size:14px;color:#333;}
+.xm-bq a{color:#09c;margin:0 5px;}
+.xm-bq a:hover{color:#E10602;}
+.comment-main{
+	display:inline-block;*display:inline;zoom:1;width:265px;margin:0 auto;border:1px solid #ddd;background:#eee;padding:10px;border-radius:3px;
+	text-align:left;
+}
+.comment-main textarea{width:100%;border:1px solid #dcdcdc;}
+.comment-main textarea:focus{outline:none;border-color:#4bf;}
+.comment-main a{font-size:12px;text-decoration:none;color:#09c;}
+textarea{height:100px;}
+.comment-main a:hover{color:#E10602;}
+.showContent{font-size:14px;color:#777;width:275px;height:500px;border:1px solid #ccc;margin:10px auto;border-radius:5px;text-align:left;}

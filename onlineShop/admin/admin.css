@@ -1,0 +1,240 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#admin_main{
+	width:1360px;
+	height:620px;
+	border:1px solid black;
+	background-image: url(bg.jpg);
+}
+#log{
+	width:500px;
+	height:350px;
+	border-radius:8px;
+	background: #888;
+	opacity: 0.5;
+	margin:100px auto;
+	position: relative;
+	left: 136px;
+}
+#log h1 {
+    color: white;
+    font-size: 26px;
+    padding: 37px 126px;
+}
+#log form p{
+	height:45px;
+	line-height:45px;
+}
+#log form p span{
+	font-weight: 600;
+	color:white;
+	display:inline-block;
+	width:150px;
+	text-align: right;
+	padding-right:10px;
+}
+#log form p input{
+	height:20px;
+	width:200px;
+	border:none;
+	border:1px dashed #888;
+	border-radius:3px;
+}
+
+
+#log form h3 input {
+    border: medium none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    height: 27px;
+    letter-spacing: 4px;
+    line-height: 20px;
+    margin: 31px 159px;
+    text-align: center;
+    width: 100px;
+}
+#log form h3 input:hover{
+	background: #EF4300;
+	color:white;
+}
+
+/****以上是登录界面*****/
+div{
+	border-radius:5px;
+}
+
+#ma_main{
+	width:950px;
+	margin:0 auto;
+}
+#ma_head{
+	width:950px;
+	height:200px;
+	background:url(headlog.jpg);
+}
+
+#ma_head h2 {
+    color: white;
+    letter-spacing: 3px;
+    padding: 70px;
+}
+
+.ui-tabs .ui-tabs-nav {
+    margin: 0px;
+    padding: -0.8em 0.2em 0px;
+}
+
+.ui-tabs {
+    position: relative;
+    padding: -1.8em;
+}
+.ui-tabs .ui-tabs-nav li a {
+    float: left;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0px;
+    padding: -0.8em 0.2em 0px;
+}
+
+.ui-widget-header {
+    background:#275286 ;
+    opacity: 0.8;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 0px solid #D3D3D3;
+    background: #92BFE0;
+    opacity: 0.9;
+    color:white;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+    cursor: pointer;
+    background: white;
+    color:black;
+}
+.ui-tabs .ui-tabs-nav li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+#tabs-2,#tabs-1,#tabs-3,#tabs-4{
+	padding:0 20px 20px 0; 
+}
+
+#tabs h3 {
+    background: #eee none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #666;
+    font-size: 15px;
+    font-weight: normal;
+    height: 29px;
+    line-height: 29px;
+    text-indent: 20px;
+    cursor:pointer;
+	border: 1px dashed #ccc;
+}
+
+#tabs div {
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding: 25px 27px 32px 25px;
+}
+
+#addbook form p,#alterbook form p{
+	height: 45px;
+	line-height: 40px;
+}
+#addbook form p span,#alterbook form p span{
+	display:inline-block;
+	float:left;
+	width:150px;
+	text-align: right;
+	padding-right:10px;
+}
+#addbook form p input,#alterbook form p input{
+	border:none;
+	border:1px solid #ccc;
+	width:210px;
+	height:23px;
+	border-radius:2px;
+	
+}
+#addbook form p input:focus,#alterbook form p input:focus{
+	border:2px solid #A0C3DF;
+}
+
+/***修改日历样式***/
+#ui-datepicker-div{
+	width:243px;
+	font-size:14px;
+}
+#subbook,#realalter,#cancelalter{
+	position: relative;
+	top:30px;
+	left:160px;
+	cursor:pointer;
+}
+
+#alterbook h4,#delebook h4{
+	padding:0 45px;
+	height:25px;
+	line-height: 25px;
+}
+#alterbook h4 input ,#delebook h4 input{
+	width:200px;
+	height:20px;
+	border: none;
+	border:1px solid #ccc;
+}
+#alterbook form{
+	width:810px;
+	padding:30px 0 0 0;
+	display:none;
+}
+#delbook table{
+	border:1px solid #ccc;
+	border-collapse: collapse;
+	margin:0 auto;
+}
+#delbook table tr{
+	width:810px;
+	display:inline-block;
+	padding:0;
+}
+#delbook table td,#delbook table th{
+	height:30px;
+	border:1px solid #ccc;
+	width:60px;
+	overflow: hidden;
+	text-align: center;
+}
+#delbook table td:nth-child(2),#delbook table th:nth-child(2){
+	width:200px;
+}
+#delbook table td:nth-child(3),#delbook table th:nth-child(3){
+	width:110px;
+}
+#delbook table td:nth-child(4),#delbook table th:nth-child(4){
+	width:110px;
+}
+#delbook table td:nth-child(5),#delbook table th:nth-child(5){
+	width:110px;
+}
+#delbook table td:nth-child(9),#delbook table th:nth-child(9){
+	width:30px;
+}
+
+
+label.error{
+	color:red;
+	margin-left:10px;
+}

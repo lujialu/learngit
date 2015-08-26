@@ -1,0 +1,37 @@
+.xm-bq{margin:20px 0;font-size:14px;color:#333;}
+.xm-bq a{color:#09c;margin:0 5px;}
+.xm-bq a:hover{color:#E10602;}
+.comment-main{
+	display:inline-block;*display:inline;zoom:1;width:250px;margin:0 auto;border:1px solid #ddd;background:#eee;padding:10px;border-radius:3px;
+	text-align:left;
+}
+.comment-main textarea{width:100%;border:1px solid #dcdcdc;font-size: 13px;color: #888; resize: none;}
+.comment-main textarea:focus{outline:none;border-color:#4bf;}
+.comment-main a{font-size:12px;text-decoration:none;color:#09c;}
+textarea{height:100px;}
+.comment-main a:hover{color:#E10602;}
+.showContent{font-size:14px;color:#777;width:270px;height:374px;border:1px solid #ccc;margin:10px auto;border-radius:5px;text-align:left;overflow: auto;}
+.LittleContent{
+	font-size:12px;
+	text-indent: 4px;
+	width: 260px;
+	text-overflow:ellipsis;
+	padding:7px;
+	
+}
+.showContent hr{
+	border:none;
+	border-top:2px solid #ccc;
+	width:95%;
+	margin-left:5px;
+}
+.ContentUser{
+	color: blue;
+}
+.load_more{
+width:80%;
+margin:10px 0 0 25px;
+height:25px;
+line-height:25px;
+font-size:13px;
+}

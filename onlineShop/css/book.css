@@ -1,0 +1,133 @@
+div{
+	border-radius:5px;
+}
+#book_main{
+	width:950px;
+	height:1250px;
+	margin:10px auto;
+	border: 1px dashed #2773C1;
+	border-radius:5px;
+}
+#book_content{
+	padding:20px 0 0 60px;
+}
+#book_content img{
+	float:left;
+	border:1px solid #ccc;
+	margin:50px 50px 0 0;
+}
+#book_content h2{
+	text-indent:10px;
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+	color:#333;
+	letter-spacing:1px;
+	background:#BBD2E8;
+	opacity: 0.8;
+}
+#book_content div{
+	float: left;
+}
+#book_content div div{
+	margin-top:10px;
+	padding:10px 0 0 10px;
+	background:#BBD2E8;
+	width:500px;
+	border-radius:5px;
+}
+
+#book_content div div p{
+	font-size:15px;
+	height:35px;
+	line-height:35px;
+	color:#888;
+	font-weight:bold;	
+}
+#book_content div div p span.alignright{
+	display: inline-block;
+	width:100px;
+	text-align:right;
+}
+#book_content div div p input{
+	height:18px;
+	width:25px;
+	border-radius:3px;
+	text-align:center; 
+}
+#book_content div div p:first-child span.money{
+	text-decoration: line-through;
+}
+#book_content div div p:nth-child(2) span.money{
+	color:#FF204C;
+	font-weight:bolder;	
+	font-size:25px;
+}
+.changnum,#addshopcar{
+	margin:0 5px 0 5px;
+	display:inline-block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	background:#2773C1;
+	color:white;
+	border-radius:3px;
+	border:none;
+	text-align:center;
+	cursor: pointer;
+}
+#addshopcar:hover{
+	opacity: 0.6;
+}
+
+#book_info{
+	clear:both;
+	width:900px;
+	height:800px;
+	margin:0 auto;
+	border:none;
+	margin-top:400px;
+}
+#book_info .ui-tabs .ui-tabs-nav li {
+    margin: 0px;
+    width: 295px;
+    text-indent: 71px;
+}
+#book_info .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    border-top: 3px solid #2773C1;
+}
+#book_info .ui-tabs .ui-tabs-nav {
+    margin: 0px;
+    padding: 0px 0px 0px;
+}
+#book_info .ui-corner-all{
+	border:none;
+}
+#book_info .ui-tabs .ui-tabs-panel {
+    border-width: 1px;
+    border: 1px solid #bbb;
+}
+#book_tabs3 p,#book_tabs2 p{
+	margin:10px 0 0 50px;
+}
+#book_tabs3 h3,#book_tabs2 h3{
+	margin:50px 0 0 50px;
+	padding:0 0 10px 0;
+	border-bottom:1px solid #bbb;
+}
+#book_tabs2 h3{
+	font-weight:normal;
+	padding:0 0 5px 0;
+	font-size:13px;
+	color: red;
+}
+#book_tabs2 .book_comment p:last-child{
+	color:#ccc;
+}
+.book_comment p span{
+	color:blue;
+	display: inline-block;
+	width:100px;
+	float:right;
+	cursor: pointer;
+}

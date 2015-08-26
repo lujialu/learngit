@@ -1,0 +1,278 @@
+div{
+	border-radius:5px;
+}
+#order_main{
+	width:1000px;
+	border: 1px dashed #87A4C1;
+	margin:20px auto;
+	padding:10px 10px 30px 10px;
+}
+#order_main h2{
+	font-size:17px;
+	background: #2773C1;
+	border-radius: 5px;
+	text-indent:30px;
+	height: 45px;
+	line-height:45px;
+	color:white;
+}
+#order_main h3{
+	margin:8px 0 0 0;
+	border-radius: 3px;
+	font-size:15px;
+	background: #ddd;
+	text-indent:30px;
+	height: 40px;
+	line-height:40px;
+	color:#666;
+}
+#order_info,#order_payway,#order_deliver,#order_list,#order_bill,#totalpay,#newadd{
+	margin:8px 0 0 0;
+	padding:0 0 30px 0;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	font-size:14px;
+	color:#666;
+}
+#order_info h4,#order_payway h4,#order_deliver h4,#order_list h4,#order_bill h4,#newadd h4{
+	font-weight:300;
+	font-size:14px;
+	background: #eee;
+	text-indent:30px;
+	height: 35px;
+	line-height:35px;
+	color:#666;
+}
+#order_info h4 span{
+	display:inline-block;
+	float:right;
+	margin-right:50px;
+	color: blue;
+	font-size: 13px;
+	cursor:pointer; 
+}
+#order_info h4 span:hover{
+	color:red;
+}
+
+#order_info ul{
+	padding:0 68px 0 30px;
+	list-style: none;
+	font-size:13px;
+	color:#666
+}
+#order_info ul:hover{
+	background: #BBD2E8;
+}
+#order_info ul li{
+	display: inline-block;
+	height:35px;
+	line-height:35px;
+	font-weight:400;
+}
+#order_info ul span{
+	margin-left:10px;
+	height:35px;
+	line-height:35px;
+	display: inline-block;
+	float:right;
+	width:26px;
+	color:blue;
+	font-weight:200;
+}
+#order_info ul span:hover{
+	color:red;
+}
+#packup{
+	color:blue;
+	position:relative;
+	top:15px;
+	margin:20px 0 0px 30px;
+	cursor: pointer;
+}
+#packup:hover{
+	color:red;
+}
+#order_payway span{
+	display:inline-block;
+	width:100px;
+	height: 40px;
+	line-height: 40px;
+	margin-top:30px;
+	margin-left:30px;
+	
+}
+
+#order_deliver p{
+	margin-left:30px;
+	margin-top:30px;
+	height:30px;
+	line-height:30px;
+	color:red;
+}
+
+#order_deliver p span {
+	margin:0 8px;
+	font-weight: 600;
+	font-size:18px;
+	position:relative;
+	top:1px;
+}
+#order_bill p {
+	margin:30px 0 0 30px; 
+}
+#order_bill p span{
+	color:blue;
+	cursor: pointer;
+}
+#order_bill p span:hover{
+	color:red;
+}
+#totalpay{
+	height:50px;
+	line-height:50px;
+	padding:0 50px 0 0;
+}
+#paymoney,#payment,#commitorder{
+	display:inline-block;
+	float:right;
+}
+#paymoney{
+	color:red;
+	font-weight:600;
+	font-size:25px;
+	margin-right:30px;
+}
+#commitorder{
+	position:relative;
+	top:8px;
+	width:100px;
+	height:35px;
+	background: #2773C1;
+	color:white;
+	font-size:18px;
+	font-weight:500;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+	line-height:35px;
+}
+#commitorder:hover{
+	opacity: 0.7;
+	color:#FEA8CB;
+}
+#newadd{
+	margin:0;
+}
+
+/***修改指定dialog的样式**/
+.ui-dialog .ui-dialog-content {
+    position: relative;
+    border: 0px none;
+    padding:0;
+    background: transparent none repeat scroll 0% 0%;
+    overflow: auto;
+}
+
+#addaddress #newadd h4 span#closedialog{
+	display:inline-block;
+	float:right;
+	margin-right: 20px;
+	cursor:pointer;
+}
+#order_address li{
+	padding:0 5px 0 5px;
+}
+.otheradd{
+	border-radius:3px;
+	background:#2773C1;
+	color:white;
+	cursor:pointer;
+}
+#newadd{
+	border:2px dashed #2773C1;
+}
+#closedialog:hover{
+	color: blue;
+}
+
+#newadd form p{
+	padding-left:40px;
+	height:40px;
+	line-height:40px;
+}
+#newadd form{
+	margin-top:20px;
+}
+#newadd form p span.rightalign{
+	display: inline-block;
+	width:100px;
+	text-align: right;
+}
+#newadd form p input{
+	height:23px;
+	border-radius:3px;
+	border:1px solid #ccc;
+	font-size:12px;
+	color: #666;
+	text-indent: 10px;
+}
+#newadd form p input:focus{
+	border: 1px solid #4E84BA;
+}
+#receiver{
+	width:200px;
+}
+#area,#fulladdress{
+	width:320px;
+}
+.smallstar{
+	color:red;
+	font-size:11px;
+}
+#save{
+	background:#2773C1;
+	width:130px;
+	text-align:center;
+	height:28px;
+	line-height:28px;
+	color:white;
+	width:100px;
+	display:inline-block;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top:10px;
+}
+#save:hover{
+	opacity: 0.8;
+}
+.errortip{
+	margin-left:10px;
+	font-size:11px;
+	color:red;
+	display:none;
+}
+.deladdress,.edit{
+	cursor:pointer;
+}
+
+#order_info ul {
+    margin: 5px;
+}
+/***购物清单css***/
+#order_goods img{
+	width:70px;
+	height:70px;
+	float:left;
+}
+#order_goods{
+	margin-left:100px; 
+}
+.one_goods li {
+    display: inline-block;
+    padding: 10px;
+    height: 34px;
+    line-height: 19px;
+}
+
+

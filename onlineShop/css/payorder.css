@@ -1,0 +1,87 @@
+div{
+	border-radius:5px;
+}
+#payorder_main{
+	margin:20px auto;
+	width:980px;
+	border:1px dashed #aaa;
+	box-shadow:10px 10px 10px 8px #BBD2E8;
+	padding:30px 30px 90px 30px;
+	
+}
+
+
+#payorder_main div h4{
+	color:#555;
+	font-size:13px;
+	height:35px;
+	line-height:35px;
+	background: #ccc;
+	text-indent:30px;
+	font-size:16px;
+	font-weight:500;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+#payorder_main div{
+	border:1px dashed #ccc;
+	margin-bottom:60px;
+}
+#payorder_main table tr{
+	padding-top:10px;
+	width:978px;
+	display:inline-block;
+	height:120px;
+	color:#666;
+	font-size: 15px;
+}
+#payorder_main table tr td{
+	width:120px;
+	text-align: center;
+}
+#payorder_main table tr td:nth-child(2){
+	width:320px;
+}
+#payorder_main h3 input {
+    background: #2773c1 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    height: 33px;
+    line-height: 25px;
+    margin-right: 1px;
+    margin-left: 11px;
+    text-align: center;
+    width: 115px;
+}
+	
+
+.rightalign {
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+    font-weight: 500;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px;
+}
+.rightalign span{
+	margin-right:20px;
+}
+.allmoney{
+	color: red;
+	font-size: 30px;
+	position:relative;
+	top:5px;
+}
+.ordermoney{
+	display:inline-block;
+	float:right;
+	margin-right:149px;
+}
+#selectitems{
+	border:1px dashed #ccc;
+	height:70px;
+}

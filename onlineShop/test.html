@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.div1{
+	width:50px;
+	height:50px;
+	background-color: pink;
+	cursor:pointer;
+}
+.div2{
+	width:50px;
+	height:50px;
+	background-color: yellow;
+	visibility:hidden;
+}
+</style>
+</head>
+<body>
+<div class = "div1" onmouseover = "show()" onmouseout = "hiddened()">
+<script type="text/javascript">
+function show(){
+	document.getElementsByClassName("div2")[0].style.visibility = "visible";
+}
+//!!!!记住 关键字不能作为变量名 
+function hiddened(){
+	document.getElementsByClassName("div2")[0].style.visibility = "hidden";
+}
+</script>
+</div>
+<div class = "div2" onmouseover = "show()"onmouseout = "hiddened()"></div>
+</body>
+</html>
